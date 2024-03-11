@@ -7,3 +7,6 @@
 Please edit docker-compose.yml to change mariadb password
 
 ``` docker-compose up -d ```
+
+
+Download wordpress to www folder
