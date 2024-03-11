@@ -10,3 +10,5 @@ Please edit docker-compose.yml to change mariadb password
 
 
 Download wordpress to www folder
+
+https://wordpress.org/latest.tar.gz
