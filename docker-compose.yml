@@ -1,0 +1,26 @@
+version : '3'
+services :
+
+  wpapache:
+    container_name: wpapache
+    build: ./wp
+    #    image : php:8.2-apache
+    volumes:
+        - ./www/:/var/www/html
+    ports:
+      - 80:80
+        #    expose:
+        #      - "80"
+
+  mariadb:
+    container_name: mariadb
+    image: mariadb:10.11
+    environment:
+        MYSQL_ROOT_PASSWORD: rootdocker_34fssefdwdccaa
+    volumes:
+        - ./db/:/var/lib/mysql
+        - ./logs/mysql:/var/log/mysql
+    ports:
+      - 3306:3306
+      
+
