@@ -1,7 +1,9 @@
 ## Docker-compose for WordPress by lamp stack
 
-git clone https://github.com/songwutk/docker-wp-php82
+``` git clone https://github.com/songwutk/docker-wp-php82 ```
 
-cd docker-wp-php82
+``` cd docker-wp-php82 ```
 
-docker-compose up -d
+Please edit docker-compose.yml to change mariadb password
+
+``` docker-compose up -d ```
